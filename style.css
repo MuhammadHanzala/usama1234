@@ -1,0 +1,166 @@
+
+body {
+    background-image: url(./bg/1.jpg);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    
+    text-align: center;
+    color: white;
+    
+}
+h2 {
+    color: white;
+}
+
+
+p {
+    font-size: 19px;
+    color: white;
+    text-align: justify;
+}
+
+img {
+    margin-left: 5%;
+    width: 90%;
+    height: 130%;
+    border: 10px solid black;
+    border-radius: 5px;
+}   
+
+#overlay {
+    background-color: rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 960px;
+    height: 770px;
+    border-radius: 5px;
+}    
+
+.block1 {
+    width: 500px;
+    height: 500px;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.block2 {
+    width: 400px;
+    float: left;
+    margin-left:50 px;
+}
+
+button {
+    display: inline;
+    width: 150px;
+    height: 50px;
+    background-color: lightskyblue;
+    color: white;
+    border: 0; 
+    border-radius: 2px;
+    font size: 15px;
+    margin-top: 5px;
+}
+    
+li a {
+    padding: 8px;
+}    
+#backgroundColorNav {
+    background-color: antiquewhite;
+    margin: 2px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+    
+}
+
+button:visited {
+    color: black;
+}
+    
+
+
+    a {
+        display: block;
+        padding: 6px;
+        color: purple;
+       
+        text-decoration: none;
+        
+        
+    }
+    li {
+        float: left;
+    }
+    
+    
+    li a:hover {
+       color: deepskyblue; 
+    }
+#orange {
+    color: darkorange;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: lightseagreen;       
+ }
+#center {
+    float: center; 
+}
+ul {
+    list-style-type: none;
+    display: block;    
+}
+
+#4 {
+        display: inline;
+        width: 140px;
+        height: -20px;
+        float: right;
+        padding: 14px 16px;
+        color: black;
+        text-decoration: none;
+        list-style: none;
+}
+
+.button {
+    display: inline;
+    
+    
+    
+    
+    
+     
+    
+  
+}
+
+#border
+{
+    border-color: black;
+}
+
+
+
+
+    
+    
+    
+    
+}
+
+
+
+
+#right2 {
+     float: left;
+    
+}
+#8 {
+    float: left;
+}
