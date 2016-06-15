@@ -1,75 +1,116 @@
+body,
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(f5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 18px;
-	font-style: italic;
-	font-variant: small-caps;
-	font-weight: 500;
-	line-height: 26.4px;
-    background-color: gold;
-    border-style: solid black;
     
-}
-
-    
-    
-
-#size{
-    font-size: 60px;
     text-align: center;
+    color: white;
+ 
+    
+}
+h2 {
+    color: white;
    
-    color: brown;
-    
+}
 
+
+p {
+    font-size: 19px;
+    color: white;
+    text-align: justify;
+   
+}
+
+img {
+    margin-left: 5%;
+    width: 90%;
+    height: 130%;
+    border: 10px solid black;
+    border-radius: 5px;
+}   
+
+#overlay {
+    background-color: rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 960px;
+    height: 770px;
+    border-radius: 5px;
+}    
+
+.block1 {
+    width: 500px;
+    height: 500px;
+    float: left;
+    font-family: 'Dancing Script', cursive;
     
 }
-a {
-    color: black;
+.block2 {
+    width: 400px;
+    float: left;
+    margin-left:50 px;
+}
+
+button {
     text-decoration: none;
+    display: inline;
+    width: 150px;
+    height: 50px;
+    background-color: lightskyblue;
+    color: white;
+    border: 0; 
+    border-radius: 2px;
+    font size: 15px;
+    margin-top: 5px;
+      
+}
+    
+li a {
+    padding: 0px;
+}    
+#backgroundColorNav {
+    background-color: rgba(0,0,0,0.5);
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5em;
+    width: 60em;
+    height: 4em;
+    
+    
+    
     
 }
 
-    .list {
+button:visited {
+    color: darkgoldenrod;
+}
+    
+
+
+   li a {
         display: block;
-        width: 140px;
-        float: right;
-        padding: 14px 16px;
-        
+        color: white;
+        padding: 5px 0px;
+        margin: 25px;
         text-decoration: none;
+        
+        
+    }
+    li {
+        float: left;
     }
     
     
     li a:hover {
-       color: white; 
+       color: yellow; 
     }
-   #ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: deepskyblue
-}
-
-.1 {
-    color: deepblue;
-    
-}
-.1 hover: {
-    color: black;
-}
-
- body {
-     background-color: transparent
- }
- div {
-     border-style: none
- }
-#orange {
-    color: darkorange;
-}
-
-#green {
-    color: green;
-}
 
 #blue {
     color: lightseagreen;       
@@ -77,23 +118,53 @@ a {
 #center {
     float: center; 
 }
+ul {
+    list-style-type: none;
+    display: block;    
+}
+
+#4 {
+        display: inline;
+        width: 140px;
+        height: -20px;
+        float: right;
+        padding: 14px 16px;
+        color: black;
+        text-decoration: none;
+        list-style: none;
+}
+
+    
+    
+    
+    
+    
+     
+    
+  
+}
+
+#border
+{
+    border-color: black;
+}
 
 
 
 
+    
+    
+    
+    
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#right2 {
+     float: left;
+    
+}
+#8 {
+    float: left;
+}
