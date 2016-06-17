@@ -4,20 +4,51 @@ html {
 }
 
 body {
-    background-image: url(fr.jpg);
+    background-image: url(pencil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 button {
     display: inline;
-    width: 150px;
-    height: 50px;
-    background-color: lightskyblue;
+    width: 20em;
+    height: 2.5em;
+    background-color: mediumaquamarine;
     color: white;
     border: 0; 
-    border-radius: 2px;
+    border-radius: 0.3em;
     font size: 15px;
     margin-top: 5px;
     text-decoration: none;  
+}
+
+input {
+    width: 20em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    background: rgba(0,0,0,00.75);
+    color: white;
+}
+
+fieldset {
+    width: 14em;
+    height: 8em;
+}
+
+p {
+    color: white;
+}
+
+h1,h2 {
+    color: white;
+    text-align: center;
+    
+}
+
+#border {
+    background: black;
+    color: white;
+    text-align: center;
+    
+    
 }

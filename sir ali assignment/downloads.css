@@ -4,7 +4,19 @@ html {
 }
 
 body {
-    background-image: url(f13.jpg);
+    background-image: url(pencil7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1,h2,h3 {
+    color: white;
+}
+
+#border {
+    background: black;
+    color: white;
+    text-align: center;
+    
+    
 }

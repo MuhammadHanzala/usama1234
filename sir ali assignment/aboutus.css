@@ -12,9 +12,28 @@ body {
 }
 
 #orange {
-    color: white;
+    color: yellow;
 }
 
 #green {
     color: green;
 }
+
+h1,h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#border {
+    background: black;
+    color: white;
+    text-align: center;
+    
+    
+}
+

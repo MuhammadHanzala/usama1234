@@ -4,26 +4,18 @@ html {
 }
 
 body {
-    background-image: url(pencil7.jpg);
+    background-image: url(f7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1,h2 {
+h1 {
     color: white;
     text-align: center;
-    
 }
 
 p {
-    color: yellow;
+    color: white;
     text-align: center;
 }
 
-#border {
-    background: black;
-    color: white;
-    text-align: center;
-    
-    
-}
