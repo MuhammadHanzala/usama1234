@@ -1,3 +1,5 @@
+
+                       /*Background*/
 body,
 html {
     min-height: 100% ;
@@ -8,6 +10,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
+
+
+                        /*Headings*/
 h1 {
     
     text-align: center;
@@ -20,56 +29,7 @@ h2 {
    
 }
 
-
-p {
-    font-size: 19px;
-    color: white;
-    text-align: justify;
-   
-}
-
-img {
-    margin-left: 5%;
-    width: 90%;
-    height: 130%;
-    border: 10px solid black;
-    border-radius: 5px;
-}   
-
-#overlay {
-    background-color: rgba(0,0,0,0.5);
-    margin: 50px auto;
-    width: 960px;
-    height: 740px;
-    border-radius: 5px;
-}    
-
-.block1 {
-    width: 500px;
-    height: 500px;
-    float: left;
-    font-family: 'Dancing Script', cursive;
-    
-}
-.block2 {
-    width: 400px;
-    float: left;
-    margin-left:50 px;
-}
-
-button {
-    text-decoration: none;
-    display: inline;
-    width: 150px;
-    height: 50px;
-    background-color: lightskyblue;
-    color: white;
-    border: 0; 
-    border-radius: 2px;
-    font size: 15px;
-    margin-top: 5px;
-      
-}
+                          /*Navigation Bar*/
 
 button:hover {
     background: blue;
@@ -81,6 +41,7 @@ button:visited {
 a {
     text-decoration: none;
 }    
+
 #backgroundColorNav {
     background-color: rgba(0,0,0,0.5);
     margin: 10px;
@@ -103,19 +64,18 @@ button:visited {
         padding: 4px;
         margin: 3px;
         text-decoration: none;
-        
-        
-    }
-    li {
+}
+    
+li {
         float: left;
         padding: 5px;
         margin: 22px;
-    }
+}
     
     
-    li a:hover {
+li a:hover {
        color: navajowhite;
-    }
+}
 
 
 ul {
@@ -125,7 +85,66 @@ ul {
     margin: -7px;    
 }
 
+                       /*Principal's Message*/
+p {
+    font-size: 19px;
+    color: white;
+    text-align: justify;
+   
+}
 
+
+                     /*School Building*/
+img {
+    margin-left: 5%;
+    width: 90%;
+    height: 130%;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+                     
+                      /*Opacity*/
+#overlay {
+    background-color: rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 960px;
+    height: 740px;
+    border-radius: 5px;
+}    
+
+
+                      /*Opacity Content*/
+.block1 {
+    width: 500px;
+    height: 500px;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.block2 {
+    width: 400px;
+    float: left;
+    margin-left:50 px;
+}
+
+
+                       /*Social Media*/
+button {
+    text-decoration: none;
+    display: inline;
+    width: 150px;
+    height: 50px;
+    background-color: lightskyblue;
+    color: white;
+    border: 0; 
+    border-radius: 2px;
+    font size: 15px;
+    margin-top: 5px;
+}
+                                                                   
+                               /*Footer Area*/
+                                
 #border {
     background: black;
     color: white;
